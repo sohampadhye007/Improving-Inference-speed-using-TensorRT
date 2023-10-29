@@ -1,4 +1,4 @@
-# Improving-Inference-using-TensorRT
+# Improving Inference using TensorRT and Benchmarking CPU, CUDA GPU and TensorRT
 Used TensorRT for improving the the inferencing speed
 
 MNIST dataset is a collection of handwritten digits used for image classification tasks in
@@ -15,3 +15,8 @@ requirements of the task and available resources.
 As we can see in the accuracy vs no. Of epoch for both the models is quite similar.
 There is no significant change in the accuracy. That’s why the layers that I have defined are well
 classifying the digits. But the resnet is very powerful and its accuracy is also good.
+
+## Benchmarking results
+- Inference time on CPU= 14.37ms
+- Inference time on GPU= 1.28ms
+- Inference time on CPU= 0.97ms
